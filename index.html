@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Harvansh Pathak | Web Developer</title>
+  <link rel="stylesheet" href="style.css" />
+  <style>
+    @keyframes swing {
+      0% { transform: rotate(0deg); }
+      25% { transform: rotate(5deg); }
+      50% { transform: rotate(-5deg); }
+      75% { transform: rotate(5deg); }
+      100% { transform: rotate(0deg); }
+    }
+    img.profile {
+      display: block;
+      margin: 20px auto;
+      width: 160px;
+      height: 160px;
+      border-radius: 50%;
+      animation: swing 3s infinite;
+      border: 4px solid #fff;
+      box-shadow: 0 0 10px rgba(0,0,0,0.2);
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Harvansh Pathak</h1>
+    <p>Full Stack Web Developer</p>
+    <img src="profile.jpg" alt="Profile Picture" class="profile">
+
+  </header>
+
+  <section id="about">
+    <h2>About Me</h2>
+    <p>I am a passionate developer who builds modern websites and applications using latest technologies. Let's connect and collaborate!</p>
+  </section>
+
+  <section id="skills">
+    <h2>Skills</h2>
+    <ul>
+      <li>C</li><li>C++</li><li>HTML</li><li>CSS</li><li>JavaScript</li>
+      <li>Python</li><li>SQL</li><li>Oracle</li><li>Java</li><li>Operating Systems</li>
+    </ul>
+  </section>
+
+  <section id="projects">
+    <h2>Projects</h2>
+    <p><strong>Smart Portfolio:</strong> A sleek site made using HTML, CSS, JavaScript.</p>
+    <p><strong>Weather App:</strong> Real-time weather updates using APIs.</p>
+    <p><strong>To-Do List:</strong> A task manager built using JS and localStorage.</p>
+  </section>
+
+  <section id="vlog">
+    <h2>Vlog / Blog</h2>
+    <p>I share insights on development and coding. More coming soon!</p>
+  </section>
+
+  <section id="custom-content">
+    <h2>Add Your Own Section</h2>
+    <textarea rows="4" placeholder="Write your achievements, testimonials, etc..."></textarea>
+  </section>
+
+  <section id="photo-upload">
+    <h2>Upload Your Photo</h2>
+    <input type="file" accept="image/*">
+    <p><em>Only for preview – not stored online</em></p>
+  </section>
+
+  <section id="comments">
+    <h2>Leave a Comment</h2>
+    <form>
+      <input type="text" placeholder="Your Name"><br><br>
+      <textarea placeholder="Your comment..." rows="4"></textarea><br><br>
+      <button type="submit">Post Comment</button>
+    </form>
+  </section>
+
+  <section id="contact">
+    <h2>Contact Me</h2>
+    <p>Email: <a href="mailto:harvanshpathak415@gmail.com">harvanshpathak415@gmail.com</a></p>
+    <p>LinkedIn: <a href="https://www.linkedin.com/in/harvanshpathak" target="_blank">Harvansh Pathak</a></p>
+  </section>
+</body>
+</html>
