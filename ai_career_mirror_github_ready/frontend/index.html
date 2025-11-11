@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>AI Career Mirror</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>🔮 AI Career Mirror</h1>
+    <p>Predict your future career based on your skills and interests</p>
+
+    <form id="careerForm">
+      <input type="text" id="name" placeholder="Your name (optional)">
+      <input type="text" id="skills" placeholder="Enter your skills (e.g., Python, HTML, Excel)" required>
+      <input type="text" id="interests" placeholder="Enter your interests (e.g., AI, marketing, finance)" required>
+      <input type="text" id="education" placeholder="Enter your education level (e.g., BCA 3rd Year)" required>
+      <button type="submit">Predict Career</button>
+    </form>
+
+    <div id="resultBox">
+      <h3>Result:</h3>
+      <pre id="result">No prediction yet.</pre>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
